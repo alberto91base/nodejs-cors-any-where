@@ -19,7 +19,6 @@
   "files": [
     "lib/",
     "test/",
-    "Procfile",
     "demo.html",
     "server.js"
   ],

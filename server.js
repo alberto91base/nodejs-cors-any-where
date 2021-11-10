@@ -14,7 +14,7 @@ var port = process.env.PORT || 8080;
 var originBlacklist = parseEnvList(process.env.CORSANYWHERE_BLACKLIST);
 var originWhitelist = parseEnvList(process.env.CORSANYWHERE_WHITELIST);
 function parseEnvList(env) {
-  console.log("env",env);
+  console.log('env',env);
   if (!env) {
     return [];
   }
