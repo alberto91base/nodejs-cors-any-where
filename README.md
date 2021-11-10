@@ -1,9 +1,12 @@
 ## RUN
-npm run server
+localhost --> npm run server
+staging --> npm run server:staging
+pro --> npm run server:pro
 
 ## enviroment
-.env
-
+localhost --> .env
+staging --> .env.production
+pro --> .env.production
 
 
 [![Build Status](https://travis-ci.com/Rob--W/cors-anywhere.svg?branch=master)](https://travis-ci.com/Rob--W/cors-anywhere)
